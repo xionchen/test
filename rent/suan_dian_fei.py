@@ -24,4 +24,4 @@ if __name__ == '__main__':
     ele_money = [ele_usage / ele_sum * ele_sum for ele_usage in ele_usages]
 
     for i in xrange(len(ele_money)):
-        print '%s号电表的电费： %s ' % (i, ele_money[i])
+        print '%s号电表的电费： %s ' % (i+1, ele_money[i])
