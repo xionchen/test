@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print '这月用电量 %s\t' % ele_usages
     ele_sum_usage = sum(ele_usages)
 
-    ele_money = [ele_usage / ele_sum * ele_sum for ele_usage in ele_usages]
+    ele_money = [ele_usage / ele_sum_usage * ele_sum for ele_usage in ele_usages]
 
     for i in xrange(len(ele_money)):
         print '%s号电表的电费： %s ' % (i+1, ele_money[i])
