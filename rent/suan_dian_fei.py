@@ -25,3 +25,4 @@ if __name__ == '__main__':
 
     for i in xrange(len(ele_money)):
         print '%s号电表的电费： %s ' % (i+1, ele_money[i])
+
